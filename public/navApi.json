@@ -1,0 +1,51 @@
+[
+    {
+        "id":1,
+        "name" : "sports",
+        "subcat" :[{
+                "id" :2,
+                "name" : "cricket",
+                "subcat" : [{
+                    "id":9,
+                    "name": "test cricket",
+                    "subcat" : null
+                    },{
+                    "id":10,
+                    "name": "oneday",
+                    "subcat" : [{
+                        "id":11,
+                        "name":"t-20",
+                        "subcat":null
+                        },{
+                        "id":12,
+                        "name": "50 overs",
+                        "subcat" : null
+                    }]
+            }]},
+            {
+                "id" :3,
+                "name" : "football"
+            },
+            {
+                "id" :4,
+                "name" : "tenis"
+            }]
+    },
+    {
+        "id":5,
+        "name": "Entertainment",
+        "subcat" :[{
+            "id": 6,
+            "name": "Hollywood"
+        },
+    {
+            "id": 7,
+            "name": "Bollywood"
+        }]
+    },
+    {
+        "id":8,
+        "name": "national",
+        "subcat" : null
+    }
+]
