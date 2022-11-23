@@ -1,4 +1,5 @@
 import 'bootstrap/dist/css/bootstrap.css';
+import Link from 'next/link';
 import { useEffect, useState } from 'react';
 
 
@@ -31,7 +32,7 @@ useEffect(() => {
   
   <ul className="dropdown-menu" >
      {cat.subcat.map((sub: any) => ( 
-      <li key={sub.id}>{sub.name}</li> 
+      <li key={sub.id}><Link href={sub.slug}>{sub.name}</Link></li> 
      ))}
   </ul>
  

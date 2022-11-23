@@ -2,19 +2,24 @@
     {
         "id":1,
         "name" : "sports",
+        "slug" : "Sports",
         "subcat" :[{
                 "id" :2,
                 "name" : "cricket",
+                "slug" : "Cricket",
                 "subcat" : [{
                     "id":9,
                     "name": "test cricket",
+                    "slug" : "Testcricket",
                     "subcat" : null
                     },{
                     "id":10,
-                    "name": "oneday",
+                    "name": "one day",
+                    "slug" : "Oneday",
                     "subcat" : [{
                         "id":11,
                         "name":"t-20",
+                        "slug" : "T20",
                         "subcat":null
                         },{
                         "id":12,
@@ -24,28 +29,34 @@
             }]},
             {
                 "id" :3,
-                "name" : "football"
+                "name" : "football",
+                "slug" : "Football"
             },
             {
                 "id" :4,
-                "name" : "tenis"
+                "name" : "tenis",
+                "slug" : "Tenis"
             }]
     },
     {
         "id":5,
         "name": "Entertainment",
+        "slug" : "Entertainment",
         "subcat" :[{
             "id": 6,
-            "name": "Hollywood"
+            "name": "Hollywood",
+            "slug" : "Hollywood"
         },
     {
             "id": 7,
-            "name": "Bollywood"
+            "name": "Bollywood",
+            "slug" : "Bollywood"
         }]
     },
     {
         "id":8,
         "name": "national",
+        "slug" : "National",
         "subcat" : null
     }
 ]

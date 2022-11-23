@@ -9,6 +9,7 @@ function Photo(){
 
     return(
         <div className="container-fluid">
+            <h1>hello world</h1>
             <Nav />
             <div className="swiper">  
             <Swiper
