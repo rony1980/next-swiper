@@ -13,12 +13,19 @@ a {
 * {
   box-sizing: border-box;
 }
-.swiper-button-next,
+.swiper-button-next {
+  color: white !important;
+  background: #f6821f;
+  border-radius: 10rem 0 0 10rem;
+  padding: 40px 20px 40px 40px;
+  right: 0 !important;
+}
 .swiper-button-prev {
   color: white !important;
   background: #f6821f;
-  border-radius: 50%;
-  padding: 40px;
+  border-radius: 0 10rem 10rem 0;
+  padding: 40px 40px 40px 20px;
+  left: 0 !important;
 }
 .dropdown:hover .dropdown-menu {
   display: block;

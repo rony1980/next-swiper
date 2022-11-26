@@ -51,6 +51,7 @@ function Photo(){
             </Swiper>
            
   </div>
+  
         </div>
     )
 }
